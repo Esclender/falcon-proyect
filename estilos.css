@@ -126,5 +126,17 @@ a:hover{
 }
 
 @media screen and (max-width: 600px) {
+	.contenedor-conciertos{
+		display: flex;
+		flex-wrap: wrap;
+	}
 
+	.contenedor{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.card{
+		width: 100%;
+	}
 }
